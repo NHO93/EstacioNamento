@@ -13,8 +13,15 @@ Você foi contratado para construir um sistema para um estacionamento, que será
 ## Proposta
 
 Você precisará construir uma classe chamada "Estacionamento", conforme o diagrama abaixo:
-<imag>![diagrama_classe_estacionamento](https://github.com/NHO93/EstacioNamento/assets/141922637/90701af9-99d8-429b-9d3e-548b1c672466)</imag>
 
+| Estacionamento         |
+|----------------        |
+| precoInicial: decimal. |
+| precoPorHora: decimal. |
+| veiculos: list string |
+| adcionar veiculo       |
+| remover veiculo        |
+| listar veiculo         |
 ## A classe contém três variáveis, sendo:
 
 ## precoInicial:
@@ -37,7 +44,7 @@ Método responsável por verificar se um determinado veículo está estacionado,
 ## ListarVeiculos:
 Lista todos os veículos presentes atualmente no estacionamento. Caso não haja nenhum, exibir a mensagem "Não há veículos estacionados".
 
-Por último, deverá ser feito um menu interativo com as seguintes ações implementadas:
+## Por último, deverá ser feito um menu interativo com as seguintes ações implementadas:
 
 Cadastrar veículo
 Remover veículo
