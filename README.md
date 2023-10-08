@@ -1,4 +1,11 @@
 ## EstacioNamento
+--------
+Esse projeto foi criado seguindo as orientações do desafio feito pelo DIO.
+
+Fora construindo um sistema de estacionamento.
+
+---------
+
 DIO - Trilha .NET - Fundamentos
 www.dio.me
 ---
