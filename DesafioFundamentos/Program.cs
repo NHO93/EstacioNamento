@@ -1,20 +1,19 @@
-using DesafioFundamentos.Models;
+Ôªøusing DesafioFundamentos.Models;
 
-// Coloca o encoding para UTF8 para exibir acentuaÁ„o
+// Coloca o encoding para UTF8 para exibir acentua√ß√£o
 Console.OutputEncoding = System.Text.Encoding.UTF8;
 
 decimal precoInicial = 0;
 decimal precoPorHora = 0;
 
 Console.WriteLine("Seja bem vindo ao sistema de estacionamento!\n" +
-                  "Digite o preÁo inicial:");
-
+                  "Digite o pre√ßo inicial:");
 precoInicial = Convert.ToDecimal(Console.ReadLine());
 
-Console.WriteLine("Agora digite o preÁo por hora:");
+Console.WriteLine("Agora digite o pre√ßo por hora:");
 precoPorHora = Convert.ToDecimal(Console.ReadLine());
 
-// Instancia a classe Estacionamento, j· com os valores obtidos anteriormente
+// Instancia a classe Estacionamento, j√° com os valores obtidos anteriormente
 Estacionamento es = new Estacionamento(precoInicial, precoPorHora);
 
 string opcao = string.Empty;
@@ -24,10 +23,10 @@ bool exibirMenu = true;
 while (exibirMenu)
 {
     Console.Clear();
-    Console.WriteLine("Digite a sua opÁ„o:");
-    Console.WriteLine("1 - Cadastrar veÌculo");
-    Console.WriteLine("2 - Remover veÌculo");
-    Console.WriteLine("3 - Listar veÌculos");
+    Console.WriteLine("Digite a sua op√ß√£o:");
+    Console.WriteLine("1 - Cadastrar ve√≠culo");
+    Console.WriteLine("2 - Remover ve√≠culo");
+    Console.WriteLine("3 - Listar ve√≠culos");
     Console.WriteLine("4 - Encerrar");
 
     switch (Console.ReadLine())
@@ -49,7 +48,7 @@ while (exibirMenu)
             break;
 
         default:
-            Console.WriteLine("OpÁ„o inv·lida");
+            Console.WriteLine("Op√ß√£o inv√°lida");
             break;
     }
 
