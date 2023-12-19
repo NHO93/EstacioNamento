@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\DesafioFundamentos",
+    "\\DesafioFundamentos\\Models"
   ],
-  "SelectedNode": "\\Projeto-Estacionamento.sln",
+  "SelectedNode": "\\DesafioFundamentos\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
