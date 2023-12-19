@@ -32,6 +32,7 @@ A classe contém três métodos, sendo:
 * Listar veículos
 * Encerrar
 ---
+
 ## Pré-requisitos:
 
 Lógica de Programação e POO;
@@ -39,3 +40,5 @@ Lógica de Programação e POO;
 Conhecimentos Básico(.NET, Git, GitHub);
 
 Computador com SO de sua preferência;
+
+---
